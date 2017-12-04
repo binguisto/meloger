@@ -11,7 +11,7 @@
                                     <img src="img/immo.jpg" alt="slide">
                                     <div class="tp-caption large_black sfr" data-x="105" data-y="197" data-speed="1200" data-start="1100" data-easing="easeInOutBack"
                                         style="font-family: 'Playfair Display', serif; font-size: 48px;color: #131e2a; margin-bottom: 23px; text-transform: uppercase; line-height: 40px;">
-                                        Bienvenue sur notre agence immobilière en ligne!
+                                        Bienvenue sur notre agence immobilière en ligne!!!
                                     </div>
                                     <div class="tp-caption large_black sfr" data-x="105" data-y="255" data-speed="1500" data-start="1400" data-easing="easeInOutBack"
                                         style="font-family: 'Playfair Display', serif; font-size: 48px;color: #131e2a; margin-bottom: 23px; text-transform: uppercase; line-height: 40px;">
