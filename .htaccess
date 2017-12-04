@@ -1,0 +1,7 @@
+#mes url rewriting
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^contact contact.php
+ 
+RewriteRule ^inscription inscription.php
+RewriteRule ^accueil index.php
