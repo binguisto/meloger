@@ -1949,3 +1949,26 @@ ul.coments li ul li {
 	color: #fff !important;
 	font-weight: bold !important;
 }
+
+.header-connexion #menu2{
+	top: 102.6% !important;
+}
+.header-connexion #menu2 li a{
+	padding: 5px 10px !important;
+}
+.header-connexion #menu2 #drop1{
+	display: none;
+}
+.header-connexion #menu2 li{
+	padding: 0;
+}
+.header-connexion li{
+	vertical-align: middle !important;
+	display: inline-block;
+	float: none !important;
+}
+.header-connexion,
+.header-connexion li a:visited,
+.header-connexion li a{
+	color: #fff !important;
+}

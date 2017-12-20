@@ -1,6 +1,6 @@
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 2.4.0
+      <b>Version</b> 1.0
     </div>
     <strong>Copyright &copy; 2017 <a href="http://meloger.org">Me Loger</a>.</strong>Tous droits réservés.
   </footer>
@@ -38,6 +38,8 @@
 <script src="bower_components/moment/min/moment.min.js"></script>
 <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
 <!-- datepicker -->
+<script src="bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 <script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 <!-- Bootstrap WYSIHTML5 -->
 <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
@@ -51,6 +53,25 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<script>
+  $(function () {
+    $('#example1').DataTable()
+    $('#example2').DataTable({
+      'paging'      : true,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : true,
+      'autoWidth'   : false
+    })
+ 
+    $('#close').click(function(){
+      setTimeout(() => {
+        $('#triger').trigger('click');
+      }, 2000);
+  });
+  });
+</script>
 </body>
 
 <!-- Mirrored from adminlte.io/themes/AdminLTE/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Nov 2017 10:39:20 GMT -->

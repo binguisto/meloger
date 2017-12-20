@@ -1,6 +1,8 @@
 <?php session_start();
 if(!$_SESSION)
     header('location: login.php');
+
+include "../config.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -47,6 +49,9 @@ if(!$_SESSION)
 <style>
 .sidebar-menu > li:last-child {
   display: none !important;
+}
+#example1_filter {
+	float: right !important;
 }
 </style>
 </head>
@@ -162,7 +167,7 @@ if(!$_SESSION)
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profil</a>
+                  <a href="../" class="btn btn-default btn-flat">Retour au site</a>
                 </div>
                 <div class="pull-right">
                   <a href="../traitement.php?deconnexion" class="btn btn-default btn-flat">Déconnexion</a>

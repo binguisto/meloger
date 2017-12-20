@@ -1,6 +1,6 @@
 <?php
+session_start();
 include "config.php";
-
 
 ?>
 <!DOCTYPE html>
@@ -88,7 +88,9 @@ include "config.php";
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 floatright">
                                     <div class="right_header_top clearfix floatright">
-                                        <ul class="nav navbar-nav navbar-right">
+                                        <ul class="nav navbar-nav navbar-right header-connexion">
+                                        <?php if(!$_SESSION){ ?>
+                        
                                             <li class="">
                                                 <a class="border-right-dark-4" href="user/login.php">Connexion</a></li>
                                             <li role="presentation" >
@@ -96,6 +98,19 @@ include "config.php";
                                                   Inscription                                                 
                                                 </a>                                                
                                             </li>
+                                            <?php }else{ ?> 
+                                                <li class="">
+                                                <a class="border-right-dark-4" href="user/login.php"><?= $_SESSION['prenoms']." ".$_SESSION['nom']  ?></a></li>
+                                            <li role="presentation" class="dropdown" >
+                                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                                                <img style="width: 35px; height:35px" src="<?= !empty($_SESSION['photo']) ? $_SESSION['photo'] : 'uploads/default-user.png' ?>" class="img-circle" alt="User Image">                                             
+                                               <ul id="menu2" class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="user/">Administration</a></li>
+                                              <li role="presentation"><a role="menuitem" tabindex="-1" href="traitement.php?deconnexion">Déconnexion</a></li>
+                                            </ul> 
+                                            </a>                                                
+                                            </li>
+                                            <?php } ?> 
                                         </ul>
                                     </div>
                                 </div>

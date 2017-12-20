@@ -1,14 +1,17 @@
  <?php include "header.php" ;
 if(isset($_GET["parcelle"]))
- $art = $connexion->query("select * from articles ")
- 
+ 	$art = $connexion->query("select * from articles where typeArticle ='parcelle' ");
+ if(isset($_GET["terrain"]))
+ 	$art = $connexion->query("select * from articles where typeArticle ='terrain' ");
+ if(isset($_GET["divers"]))
+ 	$art = $connexion->query("select * from articles where typeArticle ='divers' ");
  ?>
         <!-- start breadcrumb -->
         <section class="breadcrumb_main_area margin-bottom-80">
             <div class="container-fluid">
                 <div class="row">
                     <div class="breadcrumb_main nice_title">
-                        <h2>News</h2>
+                        <h2>NOS ARTICLES</h2>
                         <!-- special offer start -->
                         <div class="special_offer_main">
                             <div class="container">
@@ -30,7 +33,8 @@ if(isset($_GET["parcelle"]))
 					<div class="col-md-12">
 						<div class="row">
 							<div class="clearfix blog_inner" data-uk-grid>
-								<div class="margin-bottom-30 col-md-4 col-sm-6 col-xs-12">
+
+								<article class="margin-bottom-30 col-md-3 col-sm-6 col-xs-12">
 									<div class="single_blog_style1">
 										<div class="style_blog_img_box">
 											<img src="img/blog-pic1.jpg" alt="img" />
@@ -48,7 +52,7 @@ if(isset($_GET["parcelle"]))
 											<a href="single-blog.html">Voir les détails</a>
 										</div>
 									</div>
-								</div>
+								</article>
 						</div>
 					</div>
 				</div>

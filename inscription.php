@@ -79,10 +79,12 @@ include "header.php";
                                         </div>
                                         <div class="col-lg-6 col-md-6 margin-top-32">
                                                         <select class="form-control" name="typeUser"   required >
-                                                          <option selected="selected" value="client" disabled="disabled">Type d'utilisateur</option>
-                                                          <option value="client">Client</option>
+                                                          <option selected="selected" value="user" disabled="disabled">Type d'utilisateur</option>
+                                                          <option value="user">utilisateur</option>
+                                                          <?php if($_SESSION){ ?>
                                                           <option value="admin">Admin</option>
                                                           <option value="superadmin">Super Admin</option> 
+                                                          <?php } ?> 
                                                         </select>               
                                         </div> 
                                         <div class="col-lg-6 col-md-6">

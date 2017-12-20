@@ -44,7 +44,7 @@
                     <div class="hotel_booking_area">
                         <div class="container">
                             <div class="hotel_booking">
-                                <form id="form1" role="form" action="#" class="">
+                                <form id="form1" method="post" role="form" action="articles.php?search" class="">
                                     <div class="col-lg-2 col-md-2 col-sm-2">
                                         <div class="room_book border-right-dark-1">
                                             <h6>Rechercher un</h6>
@@ -74,7 +74,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-4">
-                                                <a class="btn btn-warning btn-md floatright">Rechercher</a>
+                                                <button type="submit" class="btn btn-warning btn-md floatright">Rechercher</button>
                                             </div>
                                         </div>
                                     </div>
@@ -113,9 +113,7 @@
                                         <h6>Chambres à louer</h6>
                                         <p>20000/ <span>par mois</span></p>
                                     </div>
-                                    <div class="left_room_title floatright">
-                                        <a href="#" class="btn">Voir tout</a>
-                                    </div>
+                                    
                                 </div>
                                 <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
                                     <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
@@ -128,8 +126,8 @@
                                                 <p class="text-left"> 20 000f<span>/mois minimum</span></p>
                                             </div>
                                             <div class="floatright">
-                                                <a href="#" class="btn">Voir plus</a>
-                                            </div>
+                                            <a href="articles.php?chambre" class="btn">Voir</a>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -147,9 +145,7 @@
                                         <h6>Parcelles</h6>
                                         <p>à partir de 500 000f</p>
                                     </div>
-                                    <div class="left_room_title floatright">
-                                        <a href="#" class="btn">Voir tout</a>
-                                    </div>
+                                   
                                 </div>
                                 <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
                                     <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
@@ -162,8 +158,8 @@
                                                 <p><span>A partir de </span>500 000f</p>
                                             </div>
                                             <div class="floatright">
-                                                <a href="#" class="btn">Voir plus</a>
-                                            </div>
+                                            <a href="articles.php?parcelle" class="btn">Voir</a>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -181,9 +177,7 @@
                                         <h6>Divers</h6>
                                         <p>A partir de 5000f</p>
                                     </div>
-                                    <div class="left_room_title floatright">
-                                        <a href="#" class="btn">Voir tout</a>
-                                    </div>
+                                     
                                 </div>
                                 <div class="uk-overlay-panel uk-overlay-background single_wrapper_details clearfix animated bounceInDown">
                                     <div class="border-dark-1 padding-22 clearfix single_wrapper_details_pad">
@@ -196,7 +190,7 @@
                                                 <p><span>A partir de </span> 5 000f</p>
                                             </div>
                                             <div class="floatright">
-                                                <a href="#" class="btn">Voir</a>
+                                                <a href="articles.php?divers" class="btn">Voir</a>
                                             </div>
                                         </div>
                                     </div>

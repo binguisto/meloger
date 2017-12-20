@@ -17,12 +17,10 @@
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
-        <li class="active treeview">
-          <a href="#">
+        <li class="active">
+          <a href="index.php">
             <i class="fa fa-dashboard"></i> <span>Accueil</span>
-            <span class="pull-right-container">
-              <!-- i class="fa fa-angle-left pull-right"></i -->
-            </span>
+            
           </a>
         </li>
         <li class="treeview">
@@ -38,6 +36,14 @@
             <li><a href=""><i class="fa fa-circle-o"></i>Ajouter</a></li>
              
           </ul>
+        </li>
+        <li class=" ">
+          <a href="profile.php">
+            <i class="fa fa-user"></i> <span>Profil</span>
+            <span class="pull-right-container">
+              <!-- i class="fa fa-angle-left pull-right"></i -->
+            </span>
+          </a>
         </li>
       </ul>
     </section>
