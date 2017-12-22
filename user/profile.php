@@ -98,18 +98,7 @@
                   </tr> 
                   <?php } ?>
                   </tbody>
-                  <tfoot>
-                  <tr>
-                  <th>#</th>
-                  <th>Libellé</th>
-                  <th>Description</th>
-                  <th>Prix</th>
-                  <th>Commune</th>
-                  <th>Quartier</th>
-                  <th>Type</th>
-                  <th>Actions</th>
-                  </tr>
-                  </tfoot>
+                  
                 </table>
               </div>
               <!-- /.box-body -->

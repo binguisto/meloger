@@ -100,7 +100,7 @@ include "config.php";
                                             </li>
                                             <?php }else{ ?> 
                                                 <li class="">
-                                                <a class="border-right-dark-4" href="user/login.php"><?= $_SESSION['prenoms']." ".$_SESSION['nom']  ?></a></li>
+                                                <a class="border-right-dark-4" href="user/profile.php"><?= $_SESSION['prenoms']." ".$_SESSION['nom']  ?></a></li>
                                             <li role="presentation" class="dropdown" >
                                             <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
                                                 <img style="width: 35px; height:35px" src="<?= !empty($_SESSION['photo']) ? $_SESSION['photo'] : 'uploads/default-user.png' ?>" class="img-circle" alt="User Image">                                             

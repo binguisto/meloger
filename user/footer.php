@@ -55,16 +55,9 @@
 <script src="dist/js/demo.js"></script>
 <script>
   $(function () {
-    $('#example1').DataTable()
-    $('#example2').DataTable({
-      'paging'      : true,
-      'lengthChange': false,
-      'searching'   : false,
-      'ordering'    : true,
-      'info'        : true,
-      'autoWidth'   : false
-    })
- 
+    $('#example1').DataTable();
+    $('#example2').DataTable();
+       
     $('#close').click(function(){
       setTimeout(() => {
         $('#triger').trigger('click');

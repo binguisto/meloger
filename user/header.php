@@ -50,6 +50,7 @@ include "../config.php";
 .sidebar-menu > li:last-child {
   display: none !important;
 }
+#example2_filter,
 #example1_filter {
 	float: right !important;
 }

@@ -273,12 +273,12 @@
                                                 </p>
                                                 <p>
                                                     pour créer votre compte "Me loger Pay" veuillez cliquer sur le bouton
-                                                    <a
-                                                        href="#">"Inscription"</a>
+                                                    "<a
+                                                        href="inscription.php">Inscription</a>"
                                                 </p>
                                                 <div class="our_services">
-                                                    <a href="#" class="margin-right-33">Inscription gratuite</a>
-                                                    <a href="#">Accessible tous les jours 24h/24</a>
+                                                    <a href="inscription.php" class="margin-right-33">Inscription gratuite</a>
+                                                    <a >Accessible tous les jours 24h/24</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -305,8 +305,8 @@
                                                    site web. Vous pouvez laisser votre requête puis nous vous répondons dans un très bref délai
                                                 </p>
                                                 <div class="our_services">
-                                                    <a href="#" class="margin-right-33">Joignable tous les jours</a>
-                                                    <a href="#">24h /24</a>
+                                                    <a href="contact.php" class="margin-right-33">Contactez-nous</a>
+                                                    <a>24h /24</a>
                                                 </div>
                                             </div>
                                         </div>

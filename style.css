@@ -1972,3 +1972,11 @@ ul.coments li ul li {
 .header-connexion li a{
 	color: #fff !important;
 }
+.meloger-articles {
+	float: none !important;
+	display: inline-block !important;
+	vertical-align: top !important;
+}
+.style_blog_img_box {
+	min-height: 160px !important;
+}

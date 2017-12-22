@@ -31,8 +31,7 @@ include "header.php";
                                     default: $error = "Une erreur s'est produite, veuillez réessayer!";
                                 }?>
                             <p class="padding-10 white-font <?= $_GET['status'] === 'success' ? 'bg-success' : 'bg-danger'; ?>"> <?= $error; ?> </p>
-                            <?php }
-                            ?>
+                            <?php } ?>
                             <div class="send_mail">
                                 <div class="section_title margin-bottom-40">
                                     <h4>Inscrivez-vous!!</h4>
@@ -80,10 +79,9 @@ include "header.php";
                                         <div class="col-lg-6 col-md-6 margin-top-32">
                                                         <select class="form-control" name="typeUser"   required >
                                                           <option selected="selected" value="user" disabled="disabled">Type d'utilisateur</option>
-                                                          <option value="user">utilisateur</option>
+                                                          <option value="utilisateur">utilisateur</option>
                                                           <?php if($_SESSION){ ?>
-                                                          <option value="admin">Admin</option>
-                                                          <option value="superadmin">Super Admin</option> 
+                                                          <option value="administrateur">Admin</option>                                                        
                                                           <?php } ?> 
                                                         </select>               
                                         </div> 

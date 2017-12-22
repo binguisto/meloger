@@ -23,6 +23,7 @@
             
           </a>
         </li>
+        <?php if($_SESSION['typeUser'] === "admin"){ ?>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
@@ -32,11 +33,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
+            <li><a href="../inscription.php"><i class="fa fa-circle-o"></i>Ajouter</a></li>
             <li><a href=""><i class="fa fa-circle-o"></i>Liste</a></li>
-            <li><a href=""><i class="fa fa-circle-o"></i>Ajouter</a></li>
-             
           </ul>
         </li>
+        <?php } ?>
         <li class=" ">
           <a href="profile.php">
             <i class="fa fa-user"></i> <span>Profil</span>
